@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="io.appgal.search.LuceneStartTests" time="0.458" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="11.0.7+10"/>
+    <property name="user.name" value="babyboy"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib/compressedrefs:/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib"/>
+    <property name="sun.boot.library.path" value="/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib/compressedrefs:/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib"/>
+    <property name="classworlds.conf" value="/Users/babyboy/devtools/maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="jdk.extensions.version" value="11.0.7.0"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="com.ibm.system.agent.path" value="/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/babyboy/devtools/maven/apache-maven-3.6.3/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt"/>
+    <property name="java.vm.info" value="JRE 11 Mac OS X amd64-64-Bit Compressed References 20200417_552 (JIT enabled, AOT enabled)
+OpenJ9   - 05fa2d361
+OMR      - d4365f371
+JCL      - 838028fc9d based on jdk-11.0.7+10"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.20.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/Users/babyboy"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="test" value="LuceneStartTests"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="library.jansi.path" value="/Users/babyboy/devtools/maven/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="java.library.path" value="/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib/compressedrefs:/Users/babyboy/.sdkman/candidates/java/11.0.7.j9-adpt/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="11.0.7+10
+JRE 11 Mac OS X amd64-64-Bit Compressed References 20200417_552 (JIT enabled, AOT enabled)
+OpenJ9   - 05fa2d361
+OMR      - d4365f371
+JCL      - 838028fc9d based on jdk-11.0.7+10"/>
+    <property name="maven.home" value="/Users/babyboy/devtools/maven/apache-maven-3.6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dtest=LuceneStartTests"/>
+    <property name="java.class.path" value="/Users/babyboy/devtools/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/var/folders/dk/3dhq4_2n4_b2fxqq_cd0zmjw0000gn/T/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/babyboy/training/lucene/engine"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="/Users/babyboy/training/lucene/engine"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+  </properties>
+  <testcase classname="io.appgal.search.LuceneStartTests" name="testHelloLuceneJson" time="0.458"/>
+</testsuite>
